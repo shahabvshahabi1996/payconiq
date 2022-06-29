@@ -26,6 +26,6 @@ npm run payconiqStudyCase
 npm run payconiqStudyCaseReport
 ```
 ### CI/CD Pipeline
-- [Pipeline Link](https://www.google.com/)
+- [Pipeline Link](https://github.com/barisozdicle/payconiq/actions)
 - [Having trouble opening the pipeline link? Watch the video](https://www.google.com/)
 
