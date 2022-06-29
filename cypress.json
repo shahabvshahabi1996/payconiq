@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://www.saucedemo.com/",
+  "theme": "dark",
+  "viewportWidth": 1900,
+  "viewportHeight": 1080,
+  "pageLoadTimeout": 20000,
+  "defaultCommandTimeout": 6000,
+  "chromeWebSecurity": false,
+  "videoCompression": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "quite": true,
+    "overwrite": false,
+    "html": true,
+    "json": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "productNames": [
+    "Sauce Labs Onesie",
+    "Sauce Labs Backpack"
+  ],
+  "inventoryTotalItems": 6,
+  "cartItemCount": 2,
+  "firstName": "Boris",
+  "lastName": "Ozdicle",
+  "postalCode": "LV-1079",
+  "amountWithoutTax": "$37.98",
+  "tax": "$3.04",
+  "total": "$41.02",
+  "thankYouMsg": "THANK YOU FOR YOUR ORDER",
+  "orderCompleteMsg": "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+}
