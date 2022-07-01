@@ -4,8 +4,10 @@
   "description": "payconiq study case",
   "main": "index.js",
   "scripts": {
-    "payconiqStudyCase": "cypress run -- --reporter mochawesome --spec cypress/integration/*.js",
-    "payconiqTestReport": "open cypress/reports/*.html"
+    "payconiqStudyCase": "cypress run --reporter mochawesome --spec cypress/integration/*.js",
+    "payconiqTestReport": "open cypress/reports/*.html",
+    "payconiqStudyCaseChrome": "cypress run --reporter mochawesome --spec cypress/integration/*.js --browser chrome",
+    "payconiqStudyCaseFirefox": "cypress run --reporter mochawesome --spec cypress/integration/*.js --browser firefox"
   },
   "author": "baris.ozdicle",
   "license": "ISC",

@@ -12,8 +12,17 @@ All commands must be exec in root directory.
 npm install
 ```
 #### UI Test Run
+Electron
 ```
 npm run payconiqStudyCase
+```
+Chrome
+```
+npm run payconiqStudyCaseChrome
+```
+Firefox
+```
+npm run payconiqStudyCaseFirefox
 ```
 #### UI Test Report
 ```
