@@ -1,4 +1,4 @@
-import LoginPage from '../../cypress/support/pageObjects/LoginPage'
+import LoginPage from '../support/pageObjects/LoginPage'
 import InventoryPage from '../support/pageObjects/InventoryPage'
 
 describe('All Sort Functionality', () => {
