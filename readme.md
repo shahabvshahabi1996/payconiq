@@ -3,12 +3,7 @@
 </p>
 
 # Payconiq QA Assignment
-
-
-## Manual Test Cases
-
-[Manual Test Cases](https://www.google.com/)
-
+[STUDY CASE ](https://drive.google.com/file/d/1LaySSyYi-P-7bHbgMJehkYMES8mj0AjF/view?usp=sharing)
 ### Execution
 All commands must be exec in root directory.
 
@@ -17,15 +12,14 @@ All commands must be exec in root directory.
 npm install
 ```
 #### UI Test Run
-[UI TEST RUN VIDEO](https://www.google.com/)
 ```
 npm run payconiqStudyCase
 ```
 #### UI Test Report
 ```
-npm run payconiqStudyCaseReport
+npm run payconiqTestReport
 ```
 ### CI/CD Pipeline
 - [Pipeline Link](https://github.com/barisozdicle/payconiq/actions)
-- [Having trouble opening the pipeline link? Watch the video](https://www.google.com/)
+- [Having trouble opening the pipeline link? Watch the video](https://drive.google.com/file/d/1z4_PV1wZgk92Nmer5b2vte2eRSBPd5Q5/view?usp=sharing)
 

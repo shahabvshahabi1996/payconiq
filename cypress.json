@@ -11,7 +11,7 @@
   "reporterOptions": {
     "reportDir": "cypress/reports",
     "quite": true,
-    "overwrite": false,
+    "overwrite": true,
     "html": true,
     "json": true
   }

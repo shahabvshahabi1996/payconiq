@@ -4,7 +4,8 @@
   "description": "payconiq study case",
   "main": "index.js",
   "scripts": {
-    "payconiqStudyCase": "cypress run -- --reporter mochawesome --spec cypress/integration/*.js"
+    "payconiqStudyCase": "cypress run -- --reporter mochawesome --spec cypress/integration/*.js",
+    "payconiqTestReport": "open cypress/reports/*.html"
   },
   "author": "baris.ozdicle",
   "license": "ISC",
