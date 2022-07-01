@@ -14,5 +14,10 @@
   "tax": "$3.04",
   "total": "$41.02",
   "thankYouMsg": "THANK YOU FOR YOUR ORDER",
-  "orderCompleteMsg": "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+  "orderCompleteMsg": "Your order has been dispatched, and will arrive just as fast as the pony can get there!",
+  "defaultSort":"az",
+  "tShirtRed": "Test.allTheThings() T-Shirt (Red)",
+  "fleeceJacket": "Sauce Labs Fleece Jacket",
+  "lowestOnesie": "Sauce Labs Onesie",
+  "backpackSauceLabs": "Sauce Labs Backpack"
 }

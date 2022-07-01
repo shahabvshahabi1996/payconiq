@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 import LoginPage from '../support/pageObjects/LoginPage'
 import InventoryPage from '../support/pageObjects/InventoryPage'
 import CartPage from '../support/pageObjects/CartPage'

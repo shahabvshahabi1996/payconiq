@@ -7,9 +7,9 @@ Cypress.Commands.add('addProductToBasket', productName => {
 });
 
 Cypress.Commands.add('enterUserDetails', (firstName, lastName, postalCode) => {
-    cy.get("[data-test='firstName']").type(firstName).should("have.value", firstName)
-    cy.get("[data-test='lastName']").type(lastName).should("have.value", lastName)
-    cy.get("[data-test='postalCode']").type(postalCode).should("have.value", postalCode)
+    cy.get("#first-name").type(firstName).should("have.value", firstName)
+    cy.get("#last-name").type(lastName).should("have.value", lastName)
+    cy.get("#postal-code").type(postalCode).should("have.value", postalCode)
 })
 
 Cypress.Commands.add('checkAmount', () => {
@@ -22,6 +22,12 @@ Cypress.Commands.add('checkAmount', () => {
     cy.get(".summary_total_label").invoke('text').then(($totalAmount) => {
         expect($totalAmount).contains(data.total)
     })
+})
+
+Cypress.Commands.add('sortItems', ($sort, $value) => {
+    cy.get('[data-test="product_sort_container"]').select($sort)
+    cy.get('[data-test="product_sort_container"]').should("have.value", $sort)
+    cy.get(".inventory_item_name").eq(0).should("have.text", $value)
 })
 
 

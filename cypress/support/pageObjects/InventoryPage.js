@@ -12,6 +12,10 @@ class InventoryPage {
         return cy.get("#shopping_cart_container").click()
     }
 
+    sortProducts() {
+        return cy.get('[data-test="product_sort_container"]')
+    }
+
 }
 
 export default InventoryPage;
