@@ -7,7 +7,8 @@
     "payconiqStudyCase": "cypress run --reporter mochawesome --spec cypress/integration/*.js",
     "payconiqTestReport": "open cypress/reports/*.html",
     "payconiqStudyCaseChrome": "cypress run --reporter mochawesome --spec cypress/integration/*.js --browser chrome",
-    "payconiqStudyCaseFirefox": "cypress run --reporter mochawesome --spec cypress/integration/*.js --browser firefox"
+    "payconiqStudyCaseFirefox": "cypress run --reporter mochawesome --spec cypress/integration/*.js --browser firefox",
+    "payconiqTestBrowserStack": "browserstack-cypress run"
   },
   "author": "baris.ozdicle",
   "license": "ISC",
